@@ -1,9 +1,9 @@
 from queue import Full
 import socket
 
-def ip_to_domain_fun(ip_address):
+def domain_to_ip_fun(domain):
     try:
-        host_info = socket.gethostbyaddr(ip_address)
-        return host_info[0] 
+        ip = socket.gethostbyname(domain)
+        return ip
     except socket.error as e:
-        print(f"Error performing reverse DNS lookup: {e}")
+        print(f"Error performing DNS lookup: {e}")
