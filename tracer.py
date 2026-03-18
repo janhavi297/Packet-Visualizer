@@ -8,7 +8,7 @@ def tr(target):
     for t in range(1,31):
         packet = IP(dst=target_ip, ttl=t)/TCP(dport=443, flags='S')
         start = time.time()
-        reply = sr1(packet, timeout=0.5, verbose=0)
+        reply = sr1(packet, timeout=2, verbose=0)
         end = time.time()
         
         if reply is not None:
