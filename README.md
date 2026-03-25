@@ -21,3 +21,4 @@ It is a Python-based network diagnostic tool that recreates the tracert utility.
 | Visualization | Rich | 14.3.3 |
 
 ### User Interface
+![b972f6c4-0803-41c1-a12c-d28a47645e78](https://github.com/user-attachments/assets/4c9f79fd-e144-45f8-bc40-90c9ab666446)
