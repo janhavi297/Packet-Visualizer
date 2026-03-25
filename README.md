@@ -1,7 +1,7 @@
 # Packet-Visualizer
 
 ### Overview
-It is a Python-based network diagnostic tool that recreates the tracert utility. It takes domain as input and output a table to help visualize the path of the data packets.
+It is a Python-based network diagnostic tool that recreates the tracert utility. It takes domain as input and outputs a table to help visualize the path of the data packets.
 
 ### Features
 - Command Line Interface (CLI) tool
