@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.table import Table
 
 def draw_table(hops):
-    table = Table(title="Packet Visualizer")
+    table = Table(title="[bold]Packet Visualizer[/bold]")
 
     table.add_column("TTL", justify="center", style="cyan")
     table.add_column("IP Address", justify="center", style="magenta")
