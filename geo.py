@@ -11,8 +11,10 @@ def ip_to_location(ip):
         country = data.get("country")
         lat = data.get("latitude")
         long = data.get("longitude")
+        
+        return f"{city}, {region}, {country}"
 
-        return f"{city}, {region}, {country}, ({lat}, {long})"
+        # return f"{city}, {region}, {country}, ({lat}, {long})"
 
     except Exception as e:
-        return f"Location lookup failed: {e}"
+        return f"Location lookup failed"
